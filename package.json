@@ -1,0 +1,23 @@
+{
+  "name": "electron-vue-vite-scaffold",
+  "description": "electron project use vue3+vite.",
+  "version": "0.0.1",
+  "main": "packages/main/index.js",
+  "author": "黑雨伞 <excella@yeah.net>",
+  "repository": "https://github.com/cyrianax/electron-vue-vite-scaffold.git",
+  "scripts": {
+    "dev": "node scripts/watch.js",
+    "build": "node scripts/build.js"
+  },
+  "dependencies": {
+    "dexie": "^3.2.1",
+    "vue": "^3.2.25"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.0",
+    "electron": "^18.0.1",
+    "electron-builder": "^22.14.13",
+    "vite": "^2.9.0",
+    "vite-plugin-electron-renderer": "^0.3.2"
+  }
+}
